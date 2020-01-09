@@ -1,5 +1,9 @@
 import React from 'react';
 import earthLogo from './earth-logo.png';
+import greenLinePaperCompany from './GreenLinePaperCompany.png';
+import pacificGasandElectricCompany from './PacificGasandElectricCompany.png';
+import seventhGeneration from './SeventhGeneration.jpeg';
+import theGreenProductsCompany from './TheGreenProductsCompany.png';
 import styroCup from './styro-cup.png';
 import napkins from './napkins.png';
 import leaf from './Leaf_icon_09.svg';
@@ -49,6 +53,12 @@ Some of these programs use eco labels such as the <strong>“Energy Star”</str
               <li>Aiso.net</li>
             </ul>
           </div>
+        </div>
+        <div className="Logo-Container">
+          <img src={greenLinePaperCompany} className="Company-logo" alt="GreenLine Paper Company" />
+          <img src={pacificGasandElectricCompany} className="Company-logo" alt="Pacific Gas And Electric Company" />
+          <img src={seventhGeneration} className="Company-logo" alt="Seventh Generation" />
+          <img src={theGreenProductsCompany} className="Company-logo" alt="The Green Products Company" />
         </div>
       </div>
       <div className="Section-four">

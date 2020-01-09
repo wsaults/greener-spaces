@@ -83,6 +83,15 @@ a {
   opacity: 50%;
 }
 
+.Logo-Container {
+  padding-top: 2rem;
+}
+
+.Company-logo {
+  max-height: 100px;
+  padding: 0 1rem;
+}
+
 .Section-one {
   background-color: white;
   min-height: 100vh;
