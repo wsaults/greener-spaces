@@ -119,7 +119,7 @@ Some of these programs use eco labels such as the <strong>“Energy Star”</str
         <div className="rewards">
           <h5>Members only savings</h5>
           <ul>
-            <li>Wholesale pricing on green products for your office space</li>
+            <li>Wholesale pricing on green products for your office space.</li>
           </ul>
           <h5>Recycling Rewards</h5>
           <ul>
