@@ -3,7 +3,7 @@ import earthLogo from './earth-logo.png';
 import styroCup from './styro-cup.png';
 import napkins from './napkins.png';
 import leaf from './Leaf_icon_09.svg';
-// import { Card, Form, Input, Button } from './Form';
+import { Card, Form, Input, Button } from './Form';
 import './App.css';
 
 function App() {
@@ -119,7 +119,7 @@ Some of these programs use eco labels such as the <strong>“Energy Star”</str
       </div>
       <div className="Section-three">
         <h2>Contact Us</h2>
-        {/* <Card className="card">
+        <Card className="card">
           <Form>
             <Input
               className="Email"
@@ -132,7 +132,7 @@ Some of these programs use eco labels such as the <strong>“Energy Star”</str
               Submit
             </Button>
           </Form>
-        </Card> */}
+        </Card>
       </div>
       <footer className="App-footer">
         <p>©2020 Greener Spaces. All Rights Reserved.</p>
