@@ -84,7 +84,7 @@ a {
 }
 
 .Logo-Container {
-  padding-top: 2rem;
+  padding-top: 6rem;
 }
 
 .Company-logo {
@@ -188,7 +188,21 @@ a {
 }
 
 .Product-Container > div {
-  padding: 0 1rem;
+  padding: 1rem 2rem;
+  max-width: 200px;
+}
+
+.Product-Container > div > h5 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.Product-Container > div > p {
+  font-size: 1rem;
+}
+
+.Product {
+  max-height: 100px;
 }
 
 .App-footer {

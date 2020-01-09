@@ -6,6 +6,14 @@ import seventhGeneration from './SeventhGeneration.jpeg';
 import theGreenProductsCompany from './TheGreenProductsCompany.png';
 import styroCup from './styro-cup.png';
 import napkins from './napkins.png';
+import markers from './markers.jpg';
+import paper from './paper.jpg';
+import pens from './pens.jpg';
+import notebook from './notebook.jpg';
+import stickynotes from './stickynotes.jpg';
+import plates from './plates.jpg';
+import wipes from './wipes.jpg';
+import napkinsProduct from './napkins.jpg';
 import leaf from './Leaf_icon_09.svg';
 import { Card, Form, Input, Button } from './Form';
 import './App.css';
@@ -65,44 +73,44 @@ Some of these programs use eco labels such as the <strong>“Energy Star”</str
         <h2>Products</h2>
         <div className="Product-Container">
           <div>
-            <h5>Enviromentally Save Napkins</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>Recycled Unbleached Paper Napkins</h5>
+            <img src={napkinsProduct} className="Product" alt="Recycled Unbleached Paper Napkins" />
+            <p>Seventh Generation 100% Recycled Napkins are designed for softness, durability and premium absorbency. Made from 100% recycled paper with a minimum of 80% post-consumer content</p>
           </div>
           <div>
-            <h5>Product 1</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>Refillable Dry Erase Markers</h5>
+            <img src={markers} className="Product" alt="Refillable Dry Erase Markers" />
+            <p>Made from 91% recycled materials. Vivid, dense writing clearly visible from a distance.</p>
           </div>
           <div>
-            <h5>Product 1</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>Recycled Multipurpose Printer Paper</h5>
+            <img src={paper} className="Product" alt="Recycled Pens" />
+            <p>100 percent post-consumer recycled printer paper for everyday use at an affordable price.</p>
           </div>
           <div>
-            <h5>Product 1</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>Recycled Pens</h5>
+            <img src={pens} className="Product" alt="napkins" />
+            <p>Pilot's B2P Colors Retractable Gel Roller Pens are made from recycled bottles!</p>
           </div>
           <div>
-            <h5>Product 1</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>Reusable Notebooks </h5>
+            <img src={notebook} className="Product" alt="Reusable Notebooks " />
+            <p>No more wasting paper - this environmentally friendly 42 page notebook has 7 different page styles for planning, listing, goal setting, note-taking, sketching, and sharing big ideas.</p>
           </div>
           <div>
-            <h5>Product 1</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>SlickyNotes</h5>
+            <img src={stickynotes} className="Product" alt="SlickyNotes" />
+            <p>GLUE-FREE AND ECO-FRIENDLY: Using US-patented adhesive-free technology, our SlickyNotes line of products remove the limits on where and how we can post our messages.</p>
           </div>
           <div>
-            <h5>Product 1</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>Compostable Plant Fiber Plates</h5>
+            <img src={plates} className="Product" alt="Compostable Plant Fiber Plates" />
+            <p>100% Tree-Free. Made from unbleached, chlorine free, pesticide free, dye free. Microwave safe and is liquid/oil resistant.</p>
           </div>
           <div>
-            <h5>Product 1</h5>
-            <img src={napkins} className="Earth-logo" alt="napkins" />
-            <p>Napkins for your hands</p>
+            <h5>Botanical Disinfectant Wipes</h5>
+            <img src={wipes} className="Product" alt="Botanical Disinfectant Wipes" />
+            <p>Convenient wipes for daily touch-ups and tough cleaning jobs, clean and disinfect in one easy step. Kills 99.99% of bacteria and viruses*</p>
           </div>
         </div>
       </div>
@@ -115,11 +123,11 @@ Some of these programs use eco labels such as the <strong>“Energy Star”</str
           </ul>
           <h5>Recycling Rewards</h5>
           <ul>
-            <li>Get $2 back in rewards when you recycle your ink & toner cartridges. Up to 10 cartridges per month</li>
+            <li>Get $2 back in rewards when you recycle your ink & toner cartridges. Up to 10 cartridges per month.</li>
           </ul>
           <h5>Rewards for Reviews</h5>
           <ul>
-            <li>Tell us what you think about our products & services, and get $2 back in rewards. Up to 3 per month</li>
+            <li>Tell us what you think about our products & services, and get $2 back in rewards. Up to 3 per month.</li>
           </ul>
           <h5>Earn Points</h5>
           <ul>
